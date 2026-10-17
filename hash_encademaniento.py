@@ -87,15 +87,6 @@ class TablaEncadenada:
         
         
     
-            
-            
-        
-        
-BD = TablaEncadenada()
-BD.insertar("B1B2B3", "llantas_pirelly", 800000, 20)
-BD.insertar("A1345", "Chasis_nkd", 780000, 2)
-
-print(BD.mostrar())
 
 
     
