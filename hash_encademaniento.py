@@ -84,11 +84,3 @@ class TablaEncadenada:
                 texto += "\n"
             texto += linea
         return texto
-        
-        
-    
-
-
-    
-
-        
