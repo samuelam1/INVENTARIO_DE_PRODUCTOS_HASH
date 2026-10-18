@@ -104,23 +104,6 @@ python main.py                     # ejecutar la app
 0. Salir
 ```
 
-## 7. Escenario de demostración
 
-Este recorrido muestra por qué la marca `ELIMINADO` es necesaria:
 
-1. Cargar los productos demo (opción 5).
-2. Eliminar un SKU que tenga colisión (opción 3).
-3. Buscar el SKU que colisionó con él (opción 2).
-4. Mostrar las tablas (opción 4).
 
-Resultado esperado: en la tabla de sondeo lineal aparece la marca `ELIMINADO`
-y el segundo SKU **se sigue encontrando**. En encadenamiento, el segundo SKU
-queda como único elemento de su cadena.
-
-> Pega aquí la salida real de la app al terminar la implementación.
-
-## 8. Conclusiones
-
-> Completar al terminar: qué método hizo menos comparaciones en el escenario
-> de demostración, qué pasó con la marca `ELIMINADO`, y cuándo conviene cada
-> estrategia.
